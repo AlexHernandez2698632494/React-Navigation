@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Image, FlatList } from "react-native";
-export default function DetailsScreen({ navigation }) {
+export default function DetailsScreen() {
   // Simulación de datos de proyectos de reciclaje
   const [projects, setProjects] = useState([
     {
